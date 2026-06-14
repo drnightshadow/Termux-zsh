@@ -1,5 +1,5 @@
 # Termux-zsh
-> Auto-install Oh My Zsh on Termux with themes & useful plugins (based on manual installation from [here](https://gist.github.com/drnightshadow/af98668af18172822f54390547c31383)). 
+> ### Auto-install Oh My Zsh on Termux with themes & useful plugins (based on manual installation from [here](https://gist.github.com/drnightshadow/af98668af18172822f54390547c31383)). 
  
 
 ![Termux-zsh-SS](Termux-zsh-SS.png)
