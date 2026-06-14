@@ -34,7 +34,7 @@
 > #### **Attention!**
 > - You have to install latest version of Termux from F-Droid **[here](https://f-droid.org/repo/com.termux_118.apk)**
 > - Install termux-api latest version from F-Droid **[here](https://f-droid.org/repo/com.termux.api_51.apk)**
->  #### - You can download **[F-Droid](https://f-droid.org/)** app and get both apps (recomended for updates) **[here](https://f-droid.org/F-Droid.apk)**
+> - #### You can download **[F-Droid](https://f-droid.org/)** app and get both apps (recomended for updates) **[here](https://f-droid.org/F-Droid.apk)**
 
 
 -   First update termux package index by entering `pkg update` , you can answer `Y` to any prompts afterwards if its a clean termux install.
