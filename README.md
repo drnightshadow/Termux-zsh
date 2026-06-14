@@ -49,7 +49,7 @@
 > **Attention!**
 >  #### You can use all-in-one `omzsh` command in termux to update OhMyZsh framework/plugins, powerlevel10k theme and update all plugins installed in `~/.oh-my-zsh/custom/plugins` directory to latest versions or you can use commands below for manually update one by one.
 
-#### Manually updade
+#### Manually update
 -   You can use `omz update` command in termux to update OhMyZsh framework/plugins manually to latest versions, by default it will prompt you automatically if it finds any update available.
 -   You can use `p10k-update` command in termux to check and update powerlevel10k theme to latest version, this has to be done manually.
 -   You can use `custom-plugins-update` command in termux to check and update all plugins installed in `~/.oh-my-zsh/custom/plugins` directory to latest versions (they need to be a git repo), this has to be done manually.
