@@ -16,6 +16,7 @@
 -   Enabled plugins by default `alias-finder command-not-found git node npm zsh-autosuggestions zsh-syntax-highlighting zsh-autocomplete autoupdate`, to check their usage and more available plugins [Go Here](https://github.com/ohmyzsh/ohmyzsh/wiki/Plugins)
 -   Installs and sets up [lf (Terminal file manager)](https://github.com/gokcehan/lf), press <kbd>Ctrl</kbd> + <kbd>O</kbd> to execute lf in current directory (NOTE, last directory location is preserved in current session on quiting lf, so the directory you were in when you quit lf becomes your current terminal directory, if you don't want this for some reason just search for `bindkey -s "^o" "lfcd\C-m"` in `~/.zshrc` file and just change `lfcd` to `lf` in there).
 -   Added command edit function, press <kbd>Ctrl</kbd> + <kbd>E</kbd> to edit any command in micro text editor, you can change it to whatever text editor you prefer in `~/.zshrc` file here `export VISUAL="micro"`.
+-   Added custom aliases, check it [here](https://github.com/drnightshadow/Termux-zsh/blob/main/OhMyZsh/custom_aliases.zsh)
 
 ## Notes
 
@@ -44,6 +45,7 @@
 
 ### Update
 
+>  You can use all-in-one `omzsh` command in termux to update OhMyZsh framework/plugins, powerlevel10k theme and update all plugins installed in `~/.oh-my-zsh/custom/plugins` directory to latest versions or you can use commands below for manually update one by one.
 -   You can use `omz update` command in termux to update OhMyZsh framework/plugins manually to latest versions, by default it will prompt you automatically if it finds any update available.
 -   You can use `p10k-update` command in termux to check and update powerlevel10k theme to latest version, this has to be done manually.
 -   You can use `custom-plugins-update` command in termux to check and update all plugins installed in `~/.oh-my-zsh/custom/plugins` directory to latest versions (they need to be a git repo), this has to be done manually.
